@@ -46,6 +46,73 @@ nav ul li {
   background: black;
 }
 
+.form_space {
+  background-image: url("../img/img_3.jpg");
+  width: 100%;
+  height: 530px;
+}
+
+form {
+  background-color: #FFFFFF;
+  width: 788px;
+  height: 312px;
+}
+
+form h2 {
+  padding-top: 60px;
+  padding-left: 60px;
+  font-size: 16px;
+  font-family: 'Montserrat-Regular';
+}
+
+form input {
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+.long_input {
+  padding-right: 100px;
+}
+
+.footer {
+  background-color: #f2f2f2;
+}
+
+.footer h2 {
+  padding-top: 140px;
+  padding-left: 300px;
+  font-size: 35px;
+  font-family: 'Montserrat-Regular';
+}
+
+.footer p {
+  padding-top: 45px;
+  padding-left: 300px;
+  font-size: 15px;
+  font-family: 'Montserrat-Regular';
+  width: 580px;
+}
+
+.footer .social {
+  padding-top: 65px;
+  padding-left: 300px;
+  padding-bottom: 115px;
+}
+
+.footer img {
+  width: 520px;
+  height: 380px;
+  position: absolute;
+  left: 1000px;
+  top: 800px;
+}
+
+.mini_footer .two_form {
+  padding-top: 95px;
+  padding-left: 300px;
+  padding-bottom: 110px;
+}
+
 @media screen and (max-width: 1024px) {
   .hidden {
     visibility: hidden;

@@ -41,6 +41,70 @@ nav ul li {
 	width: 100%;
 	background: $secondary-color;
 }
+.banner {
+	background-image: url('../img/img_12.jpg');
+	background-size: contain;
+	height: 570px;
+}
+.left_banner {
+	background-color: #fff;
+	height: 570px;
+	width: 56%;
+	float: right;
+}
+.left_banner h1 {
+	padding-top: 40px;
+	padding-left: 50px;
+	font-size: 16px;
+	font-family: 'Montserrat-Regular';
+}
+.left_banner p {
+	padding-top: 40px;
+	padding-left: 50px;
+	width: 550px;
+	font-size: 15px;
+	font-family: 'Montserrat-Regular';
+}
+.left_banner img{
+	padding-top: 65px;
+	padding-left: 50px;
+	width: 110px;
+	height: 30px;
+}
+.footer {
+	background-color: $primery-color;
+	margin-top: 90px;
+}
+.footer h2 {
+	padding-top: 140px;
+	padding-left: 300px;
+	font-size: 35px;
+	font-family: 'Montserrat-Regular';
+}
+.footer p {
+	padding-top: 45px;
+	padding-left: 300px;
+	font-size: 15px;
+	font-family: 'Montserrat-Regular';
+	width: 580px;
+}
+.footer .social {
+	padding-top: 65px;
+	padding-left: 300px;
+	padding-bottom: 115px
+}
+.footer img {
+	width: 520px;
+	height: 380px;
+	position: absolute;
+	left: 1000px;
+	top: 900px;
+}
+.mini_footer .two_form {
+	padding-top: 95px;
+	padding-left: 300px;
+	padding-bottom: 110px;
+}
 @media screen and (max-width: 1024px) {
 	.hidden {
 		visibility: hidden;
