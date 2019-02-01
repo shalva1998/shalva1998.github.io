@@ -15,6 +15,7 @@ header{
 }
 nav ul li {
 	display: inline-block;
+	padding-right: 45px;
 }
 .menu {
 	color: $secondary-color;
@@ -23,6 +24,7 @@ nav ul li {
 }
 .social a i {
 	color: $secondary-color;
+	padding-right: 10px;
 }
 .search a i {
 	color: $secondary-color;

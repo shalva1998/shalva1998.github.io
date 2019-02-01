@@ -15,6 +15,7 @@ header{
 }
 nav ul li {
 	display: inline-block;
+	padding-right: 45px;
 }
 .menu {
 	color: $secondary-color;
@@ -23,6 +24,7 @@ nav ul li {
 }
 .social a i {
 	color: $secondary-color;
+	padding-right: 10px;
 }
 .search a i {
 	color: $secondary-color;
@@ -70,8 +72,9 @@ nav ul li {
 	padding-top: 35px;
 	padding-left: 100px;
 }
-.left_banner  div a i {
+.left_banner  div a {
 	color: #6D7073;
+	padding-right: 25px;
 }
 .left_banner p {
 	padding-top: 50px;
@@ -115,12 +118,13 @@ nav ul li {
 	padding-top: 45px;
 	padding-left: 300px;
 }
-.main_space .thre-icons a i {
+.main_space .thre-icons a {
 	color: #000000;
+	padding-right: 25px;
 }
 .icon_read .read_more {
 	padding-top: 45px;
-	padding-left: 650px;
+	padding-left: 575px;
 }
 .icon_read {
 	display: flex;
@@ -186,6 +190,9 @@ nav ul li {
 .tags {
 	padding-top: 25px;
 	width: 300px;
+}
+.tags a {
+	padding-right: 10px;
 }
 .container_space {
 	display: flex;
