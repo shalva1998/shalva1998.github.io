@@ -1,5 +1,8 @@
 $primery-color: #F2F2F2;
 $secondary-color: #000000;
+a {
+	text-decoration: none;
+}
 
 .logo {
 	font-size: 17px;
@@ -129,6 +132,10 @@ nav ul li {
 .icon_read {
 	display: flex;
 	flex-wrap: nowrap;
+}
+.load_more {
+	padding-top: 45px;
+	padding-left: 300px;
 }
 .reklama h3 {
 	font-size: 16px;

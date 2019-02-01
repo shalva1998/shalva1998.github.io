@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .logo {
   font-size: 17px;
   font-family: 'Montserrat-SemiBold';
@@ -148,6 +152,11 @@ nav ul li {
 .icon_read {
   display: flex;
   flex-wrap: nowrap;
+}
+
+.load_more {
+  padding-top: 45px;
+  padding-left: 300px;
 }
 
 .reklama h3 {
