@@ -209,6 +209,11 @@ nav ul li {
 }
 
 .one_form input {
+  color: #000000;
+  background-color: #f2f2f2;
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 15px 0px;
   margin-top: 35px;
   margin-left: 27px;
 }
@@ -229,8 +234,11 @@ nav ul li {
   width: 300px;
 }
 
-.tags a {
-  padding-right: 10px;
+.tags_a {
+  color: black;
+  margin-right: 10px;
+  border: 1px solid #f2f2f2;
+  background: #f2f2f2;
 }
 
 .container_space {
@@ -284,6 +292,17 @@ nav ul li {
   padding-top: 95px;
   padding-left: 300px;
   padding-bottom: 110px;
+}
+
+.two_form input {
+  color: #000000;
+  border: none;
+  border-bottom: 2px solid black;
+  padding-right: 100px;
+}
+
+.mini_footer img {
+  padding-left: 15px;
 }
 
 @media screen and (max-width: 1024px) {

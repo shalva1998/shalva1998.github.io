@@ -119,6 +119,17 @@ form input {
   padding-bottom: 110px;
 }
 
+.two_form input {
+  color: #000000;
+  border: none;
+  border-bottom: 2px solid black;
+  padding-right: 100px;
+}
+
+.mini_footer img {
+  padding-left: 15px;
+}
+
 @media screen and (max-width: 1024px) {
   .hidden {
     visibility: hidden;

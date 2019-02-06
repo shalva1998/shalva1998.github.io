@@ -100,9 +100,14 @@ nav ul li {
 }
 
 .left_banner .read_more {
-  padding-top: 110px;
-  padding-left: 100px;
+  color: #FFFFFF;
+  margin-top: 110px;
+  margin-left: 100px;
   display: inline-block;
+  border: 2px solid black;
+  padding: 15px 30px;
+  border-radius: 25px;
+  background: black;
 }
 
 .main_space h2 {
@@ -147,6 +152,13 @@ nav ul li {
 .icon_read .read_more {
   padding-top: 45px;
   padding-left: 575px;
+  color: black;
+}
+
+.border-bottom {
+  margin-left: 300px;
+  margin-top: 40px;
+  border-bottom: 2px dashed black;
 }
 
 .icon_read {
@@ -155,8 +167,16 @@ nav ul li {
 }
 
 .load_more {
-  padding-top: 45px;
+  padding-top: 50px;
   padding-left: 300px;
+}
+
+.load_more a {
+  color: #FFFFFF;
+  border: 2px solid #BE917B;
+  padding: 15px 45px;
+  border-radius: 25px;
+  background: #BE917B;
 }
 
 .reklama h3 {
@@ -212,13 +232,18 @@ nav ul li {
 }
 
 .one_form input {
+  color: #000000;
+  background-color: #f2f2f2;
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 15px 0px;
   margin-top: 35px;
   margin-left: 27px;
 }
 
 .send {
   width: 20px;
-  height: 17px;
+  height: 20px;
 }
 
 .reklama h5 {
@@ -232,8 +257,11 @@ nav ul li {
   width: 300px;
 }
 
-.tags a {
-  padding-right: 10px;
+.tags_a {
+  color: black;
+  margin-right: 10px;
+  border: 1px solid #f2f2f2;
+  background: #f2f2f2;
 }
 
 .container_space {
@@ -276,13 +304,24 @@ nav ul li {
   height: 380px;
   position: absolute;
   left: 1000px;
-  top: 3300px;
+  top: 3450px;
 }
 
 .mini_footer .two_form {
   padding-top: 95px;
   padding-left: 300px;
   padding-bottom: 110px;
+}
+
+.two_form input {
+  color: #000000;
+  border: none;
+  border-bottom: 2px solid black;
+  padding-right: 100px;
+}
+
+.mini_footer img {
+  padding-left: 15px;
 }
 
 @media screen and (max-width: 600px) {
@@ -309,5 +348,18 @@ nav ul li {
   div.tab-menu {
     display: flex;
     padding-right: 73px;
+  }
+
+  .banner {
+    background-size: cover;
+  }
+
+  .left_banner {
+    background-color: #f2f2f2e3;
+    width: 100%;
+  }
+
+  .left_banner h1 {
+    padding-left: 15px;
   }
 }
