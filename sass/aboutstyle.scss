@@ -78,36 +78,39 @@ nav ul li {
 }
 .footer {
 	background-color: $primery-color;
-	margin-top: 90px;
+	margin-top: 55px;
 }
 .footer h2 {
 	padding-top: 140px;
-	padding-left: 300px;
+	padding-left: 15%;
 	font-size: 35px;
 	font-family: 'Montserrat-Regular';
 }
+.footer {
+	position: relative;
+}
 .footer p {
 	padding-top: 45px;
-	padding-left: 300px;
+	padding-left: 15%;
 	font-size: 15px;
 	font-family: 'Montserrat-Regular';
 	width: 580px;
 }
 .footer .social {
 	padding-top: 65px;
-	padding-left: 300px;
+	padding-left: 15%;
 	padding-bottom: 115px
 }
 .footer img {
 	width: 520px;
 	height: 380px;
 	position: absolute;
-	left: 1000px;
-	top: 900px;
+	left: 60%;
+	top: 150px;
 }
 .mini_footer .two_form {
 	padding-top: 95px;
-	padding-left: 300px;
+	padding-left: 15%;
 	padding-bottom: 110px;
 }
 .two_form input {
