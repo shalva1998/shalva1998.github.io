@@ -47,33 +47,35 @@ nav ul li {
 	background: $secondary-color;
 }
 .banner {
-	background-image: url('../img/img_12.jpg');
-	background-size: contain;
-	height: 570px;
+	display: inline-block;
+}
+.right_banner img { 
+	width: 50%;
+	float: left;
 }
 .left_banner {
 	background-color: #fff;
 	height: 570px;
-	width: 56%;
+	width: 50%;
 	float: right;
 }
 .left_banner h1 {
 	padding-top: 40px;
-	padding-left: 50px;
+	padding-left: 5%;
 	font-size: 16px;
 	font-family: 'Montserrat-Regular';
 }
 .left_banner p {
 	padding-top: 40px;
-	padding-left: 50px;
-	width: 550px;
+	padding-left: 5%;
+	width: 50%;
 	font-size: 15px;
 	font-family: 'Montserrat-Regular';
 }
 .left_banner img{
 	padding-top: 65px;
-	padding-left: 50px;
-	width: 110px;
+	padding-left: 5%;
+	width: 10%;
 	height: 30px;
 }
 .footer {
@@ -94,7 +96,7 @@ nav ul li {
 	padding-left: 15%;
 	font-size: 15px;
 	font-family: 'Montserrat-Regular';
-	width: 580px;
+	// width: 580px;
 }
 .footer .social {
 	padding-top: 65px;
@@ -105,7 +107,7 @@ nav ul li {
 	width: 520px;
 	height: 380px;
 	position: absolute;
-	left: 60%;
+	right: 50px;
 	top: 150px;
 }
 .mini_footer .two_form {
@@ -130,5 +132,17 @@ nav ul li {
 	div.tab-menu {
 		display: flex;
 		padding-right: 73px;
+	}
+	.right_banner img {
+		width: 90%;
+		padding-left: 5%;
+	}
+	.left_banner {
+		background-color: #fff;
+		height: 570px;
+		width: 100%;
+	}
+	.left_banner p {
+		width: 90%;
 	}
 }
