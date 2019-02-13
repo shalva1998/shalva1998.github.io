@@ -1,5 +1,13 @@
+body {
+  font-family: 'Montserrat-Regular';
+}
+
 a {
   text-decoration: none;
+}
+
+p {
+  line-height: 22px;
 }
 
 .logo {
@@ -90,47 +98,51 @@ nav ul li {
   height: 30px;
 }
 
-.footer {
+footer {
   background-color: #f2f2f2;
+}
+
+.footer {
+  position: relative;
+  width: calc(50% + 360px);
+  margin: auto;
   margin-top: 55px;
 }
 
 .footer h2 {
   padding-top: 140px;
-  padding-left: 15%;
   font-size: 35px;
   font-family: 'Montserrat-Regular';
 }
 
-.footer {
-  position: relative;
-}
-
 .footer p {
+  width: 45%;
   padding-top: 45px;
-  padding-left: 15%;
   font-size: 15px;
   font-family: 'Montserrat-Regular';
 }
 
 .footer .social {
   padding-top: 65px;
-  padding-left: 15%;
   padding-bottom: 115px;
 }
 
 .footer img {
-  width: 520px;
-  height: 380px;
+  width: 45%;
   position: absolute;
-  right: 50px;
-  top: 150px;
+  right: 0px;
+  bottom: -45px;
+}
+
+.mini_footer {
+  background-color: #fff;
 }
 
 .mini_footer .two_form {
   padding-top: 95px;
-  padding-left: 15%;
   padding-bottom: 110px;
+  width: calc(50% + 360px);
+  margin: auto;
 }
 
 .two_form input {
