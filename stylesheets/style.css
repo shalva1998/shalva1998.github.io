@@ -441,6 +441,10 @@ footer {
   .main_space {
     width: 95%;
   }
+
+  .banner .left_banner .read_more {
+    margin-left: 5%;
+  }
 }
 @media screen and (max-width: 600px) {
   .hidden {
@@ -463,14 +467,12 @@ footer {
   }
 
   .banner h1 {
-    padding: 124px 27px 0px 27px;
     font-family: 'Montserrat-Regular';
     font-size: 12px;
     color: black;
   }
 
   .banner h2 {
-    padding: 50px 27px 0px 27px;
     font-family: 'Montserrat-Regular';
     font-size: 25px;
     color: black;
