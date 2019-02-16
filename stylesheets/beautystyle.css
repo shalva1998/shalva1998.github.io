@@ -457,3 +457,21 @@ footer {
     width: 40%;
   }
 }
+@media screen and (max-width: 600px) {
+  .tegs_social {
+    display: block;
+  }
+
+  .social {
+    padding-top: 30px;
+  }
+
+  .p_video {
+    display: block;
+  }
+
+  .p_video p {
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+}
