@@ -10,6 +10,10 @@ p {
   line-height: 22px;
 }
 
+a i {
+  color: black;
+}
+
 .logo {
   font-size: 17px;
   font-family: 'Montserrat-SemiBold';
@@ -24,27 +28,53 @@ header {
   align-items: center;
 }
 
-nav ul li {
-  display: inline-block;
-  padding-right: 45px;
+.left_header {
+  width: 59%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.menu {
+.left_header nav ul li {
+  display: inline-block;
+  padding-left: 40px;
+}
+
+.left_header nav ul li a {
   color: black;
   font-size: 12px;
   font-family: 'Montserrat-Regular';
 }
 
-.social a i {
-  color: black;
+.right_header {
+  width: 41%;
+}
+
+.right_header a {
+  display: inline-block;
+}
+
+.right_header .social {
+  padding-left: 10%;
+  float: left;
+}
+
+.right_header .social a i {
   padding-right: 10px;
+  font-size: 12px;
 }
 
-.search a i {
-  color: black;
-  padding-right: 69px;
+.right_header .search {
+  padding-right: 10px;
+  float: right;
 }
 
+@media screen and (min-width: 1024px) {
+  .hiden {
+    visibility: hidden;
+    display: none;
+  }
+}
 .tab-menu {
   width: 25px;
   height: 19px;
@@ -140,13 +170,14 @@ article {
 
 .main_space img {
   width: 100%;
-  height: 465px;
 }
 
 .article_img {
   max-height: 460px;
   overflow: hidden;
   margin-top: 35px;
+  display: flex;
+  justify-content: center;
 }
 
 .article_img img {
@@ -161,7 +192,7 @@ article:hover .article_img img {
 .main_space h3 {
   padding-top: 35px;
   font-size: 35px;
-  font-family: 'Montserrat-Regular';
+  font-family: 'Montserrat-SemiBold';
 }
 
 .main_space p {
@@ -230,7 +261,7 @@ span {
   padding-top: 30px;
 }
 
-.reklama p {
+.reklama .reklam_p {
   padding-top: 40px;
   font-size: 16px;
   font-family: 'Montserrat-Regular';
@@ -255,13 +286,21 @@ span {
   display: block;
 }
 
-.video a {
+.img_p {
+  position: relative;
+}
+
+.video p {
   color: white;
   border: 1px solid black;
   background: black;
   font-size: 12px;
   font-family: 'Montserrat-Regular';
   padding: 15px;
+  width: 40%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
 }
 
 .one_form {
@@ -346,7 +385,7 @@ footer {
 .footer h2 {
   padding-top: 140px;
   font-size: 35px;
-  font-family: 'Montserrat-Regular';
+  font-family: 'Montserrat-SemiBold';
 }
 
 .footer p {
@@ -359,6 +398,11 @@ footer {
 .footer .social {
   padding-top: 65px;
   padding-bottom: 115px;
+  font-size: 12px;
+}
+
+.footer .social a i {
+  padding-right: 15px;
 }
 
 .footer img {
@@ -445,6 +489,49 @@ footer {
   .banner .left_banner .read_more {
     margin-left: 5%;
   }
+
+  .footer {
+    width: 100%;
+    padding: 100px 10% 80px 10%;
+    box-sizing: border-box;
+  }
+
+  .footer img {
+    position: relative;
+    width: 80%;
+    height: 240px;
+    bottom: 0px;
+    display: block;
+    margin: auto;
+  }
+
+  .footer h2 {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .footer p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer .social {
+    width: auto;
+    text-align: center;
+    padding-bottom: 0px;
+  }
+
+  .mini_footer .two_form {
+    width: 100%;
+    padding: 70px 5% 70px 5%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mini_footer .two_form input {
+    width: 40%;
+  }
 }
 @media screen and (max-width: 600px) {
   .hidden {
@@ -476,5 +563,49 @@ footer {
     font-family: 'Montserrat-Regular';
     font-size: 25px;
     color: black;
+  }
+
+  .main_space {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .footer {
+    width: 100%;
+    padding: 90px 5% 60px 5%;
+    box-sizing: border-box;
+  }
+
+  .footer img {
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+  }
+
+  .footer h2 {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .footer p {
+    width: auto;
+    text-align: center;
+  }
+
+  .footer .social {
+    width: auto;
+    text-align: center;
+    padding-bottom: 0px;
+  }
+
+  .mini_footer .two_form {
+    width: 100%;
+    padding: 50px 5% 50px 5%;
+    box-sizing: border-box;
+  }
+
+  .mini_footer .two_form input {
+    width: 50%;
   }
 }

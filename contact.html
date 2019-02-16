@@ -10,22 +10,26 @@
 </head>
 <body>
 	<header>
-		<a class="logo" href="index.html">Enjxy.</a>
-		<nav class="hidden">
-			<ul>
-				<li><a class="menu" href="index.html">HOME</a></li>
-				<li><a class="menu" href="about.html">ABOUT</a></li>
-				<li><a class="menu" href="">CONTACT</a></li>
-			</ul>
-		</nav>
-		<div class="social hidden">
-			<a href=""><i class="fab fa-instagram"></i></a>
-			<a href=""><i class="fab fa-twitter"></i></a>
-			<a href=""><i class="fab fa-pinterest-p"></i></a>
-			<a href=""><i class="fab fa-facebook-f"></i></a>
+		<div class="left_header">
+			<a class="logo" href="index.html">Enjxy.</a>
+			<nav class="hidden">
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</nav>
 		</div>
-		<div class="search">
-			<a href=""><i class="fas fa-search"></i></a>
+		<div class="right_header">
+			<div class="social hidden">
+				<a href=""><i class="fab fa-instagram"></i></a>
+				<a href=""><i class="fab fa-twitter"></i></a>
+				<a href=""><i class="fab fa-pinterest-p"></i></a>
+				<a href=""><i class="fab fa-facebook-f"></i></a>
+			</div>
+			<div class="search hiden">
+				<a href=""><i class="fas fa-search"></i></a>
+			</div>
 		</div>
 		<div class="tab-menu">
 			<div></div>
@@ -36,10 +40,14 @@
 	<section class="form_space">
 		<form>
 			<h2>LEAVE A REPLY</h2>
-			<input type="text" name="Name" placeholder="Your Name">
-			<input type="email" name="email" placeholder="Your Email">
-			<input class="long_input" type="text" name="Message" placeholder="Message">
-			<button>Send Message</button>
+			<div>
+				<input class="input_one" type="text" name="Name" placeholder="Your Name">
+				<input class="input_two" type="email" name="email" placeholder="Your Email">
+			</div>
+			<div>
+				<textarea placeholder="Message"></textarea>
+				<button>Send Message</button>
+			</div>
 		</form>
 	</section>
 	<footer>
