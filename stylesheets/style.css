@@ -298,6 +298,14 @@ span {
   left: 0px;
 }
 
+.img_p p:hover {
+  width: 268px;
+  height: 95px;
+  text-align: center;
+  padding-top: 89px;
+  background: #00000080;
+}
+
 .one_form {
   margin-top: 70px;
   background-color: #f2f2f2;
